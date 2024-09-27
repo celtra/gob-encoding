@@ -7,10 +7,11 @@ package gob
 import (
 	"bufio"
 	"errors"
-	"internal/saferio"
 	"io"
 	"reflect"
 	"sync"
+
+	"github.com/celtra/gob-encoding/internal/saferio"
 )
 
 // tooBig provides a sanity check for sizes; used in several places. Upper limit

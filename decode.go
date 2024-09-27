@@ -9,11 +9,12 @@ package gob
 import (
 	"encoding"
 	"errors"
-	"internal/saferio"
 	"io"
 	"math"
 	"math/bits"
 	"reflect"
+
+	"github.com/celtra/gob-encoding/internal/saferio"
 )
 
 var (
